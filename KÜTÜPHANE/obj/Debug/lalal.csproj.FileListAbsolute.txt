@@ -1,0 +1,29 @@
+c:\users\lab\documents\visual studio 2013\Projects\lalal\lalal\bin\Debug\lalal.exe.config
+c:\users\lab\documents\visual studio 2013\Projects\lalal\lalal\obj\Debug\lalal.csprojResolveAssemblyReference.cache
+c:\users\lab\documents\visual studio 2013\Projects\lalal\lalal\obj\Debug\lalal.Form1.resources
+c:\users\lab\documents\visual studio 2013\Projects\lalal\lalal\obj\Debug\lalal.Properties.Resources.resources
+c:\users\lab\documents\visual studio 2013\Projects\lalal\lalal\obj\Debug\lalal.UyeEkle.resources
+c:\users\lab\documents\visual studio 2013\Projects\lalal\lalal\obj\Debug\lalal.csproj.GenerateResource.Cache
+c:\users\lab\documents\visual studio 2013\Projects\lalal\lalal\bin\Debug\lalal.exe
+c:\users\lab\documents\visual studio 2013\Projects\lalal\lalal\bin\Debug\lalal.pdb
+c:\users\lab\documents\visual studio 2013\Projects\lalal\lalal\obj\Debug\lalal.exe
+c:\users\lab\documents\visual studio 2013\Projects\lalal\lalal\obj\Debug\lalal.pdb
+C:\Users\Thet\Desktop\lalal\lalal\bin\Debug\lalal.exe.config
+C:\Users\Thet\Desktop\lalal\lalal\bin\Debug\lalal.exe
+C:\Users\Thet\Desktop\lalal\lalal\bin\Debug\lalal.pdb
+C:\Users\Thet\Desktop\lalal\lalal\obj\Debug\lalal.csproj.AssemblyReference.cache
+C:\Users\Thet\Desktop\lalal\lalal\obj\Debug\lalal.Form1.resources
+C:\Users\Thet\Desktop\lalal\lalal\obj\Debug\lalal.Properties.Resources.resources
+C:\Users\Thet\Desktop\lalal\lalal\obj\Debug\lalal.UyeEkle.resources
+C:\Users\Thet\Desktop\lalal\lalal\obj\Debug\lalal.UyeListeleme.resources
+C:\Users\Thet\Desktop\lalal\lalal\obj\Debug\lalal.csproj.GenerateResource.cache
+C:\Users\Thet\Desktop\lalal\lalal\obj\Debug\lalal.csproj.CoreCompileInputs.cache
+C:\Users\Thet\Desktop\lalal\lalal\obj\Debug\lalal.exe
+C:\Users\Thet\Desktop\lalal\lalal\obj\Debug\lalal.pdb
+C:\Users\Thet\Desktop\lalal\lalal\obj\Debug\lalal.KitapEkle.resources
+C:\Users\Thet\Desktop\lalal\lalal\obj\Debug\lalal.KitapListeleme.resources
+C:\Users\Thet\Desktop\lalal\lalal\obj\Debug\lalal.EmanetKitapVer.resources
+C:\Users\Thet\Desktop\lalal\lalal\obj\Debug\lalal.EmanetKitapListele.resources
+C:\Users\Thet\Desktop\lalal\lalal\obj\Debug\lalal.EmanetKitapİade.resources
+C:\Users\Thet\Desktop\lalal\lalal\obj\Debug\lalal.Sıralama.resources
+C:\Users\Thet\Desktop\lalal\lalal\obj\Debug\lalal.Grafik.resources
