@@ -17,18 +17,10 @@ namespace KÜTÜPHANE
         {
             InitializeComponent();
         }
-        OleDbConnection baglanti = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=Kutuphane.accdb;");
+        OleDbConnection baglanti = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=kutuphaneotomasyonu.accdb;");
         private void Grafik_Load(object sender, EventArgs e)
         {
-            baglanti.Open();
-            OleDbCommand komut = new OleDbCommand("select adsoyad,okudugukitap from üyeler", baglanti);
-            OleDbDataReader read = komut.ExecuteReader();
-            while (read.Read())
-            {
-                chart1.Series["okunankitap"].Points.AddXY(read["adsoyad"], read["okudugukitap"]);
-            }
-            baglanti.Close();
-            chart1.Series["okunankitap"].Color = Color.Red;
+
         }
     }
 }

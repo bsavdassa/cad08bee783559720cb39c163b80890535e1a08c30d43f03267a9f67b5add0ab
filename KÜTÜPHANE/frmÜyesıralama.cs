@@ -17,7 +17,7 @@ namespace KÜTÜPHANE
         {
             InitializeComponent();
         }
-        OleDbConnection baglanti = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=Kutuphane.accdb;");
+        OleDbConnection baglanti = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=kutuphaneotomasyonu.accdb;");
         DataSet set = new DataSet();
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {

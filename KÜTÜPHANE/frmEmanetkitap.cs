@@ -18,11 +18,11 @@ namespace KÜTÜPHANE
             InitializeComponent();
         }
         DataSet set = new DataSet();
-        OleDbConnection baglanti = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=Kutuphane.accdb;Persist Security Info=False;");
+        OleDbConnection baglanti = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=kutuphaneotomasyonu.accdb;");
         private void EmanetListele()
         {
             baglanti.Open();
-            OleDbDataAdapter adapter = new OleDbDataAdapter("select * from emanet_kitap", baglanti);
+            OleDbDataAdapter adapter = new OleDbDataAdapter("select * from emanet_kitaplar", baglanti);
             adapter.Fill(set, "kitaplar");
             dataGridView1.DataSource = set.Tables["kitaplar"];
             baglanti.Close();
@@ -41,7 +41,7 @@ namespace KÜTÜPHANE
         {
             baglanti.Open();
             set.Tables["kitaplar"].Clear();
-            OleDbDataAdapter adapter = new OleDbDataAdapter("select * from emanet_kitap where tc like '%" + txtKisitcarama.Text + "%'", baglanti);
+            OleDbDataAdapter adapter = new OleDbDataAdapter("select * from emanet_kitaplar where tc like '%" + txtKisitcarama.Text + "%'", baglanti);
             adapter.Fill(set, "kitaplar");
             baglanti.Close();
             if (txtKisitcarama.Text == null)
@@ -55,7 +55,7 @@ namespace KÜTÜPHANE
         {
             baglanti.Open();
             set.Tables["kitaplar"].Clear();
-            OleDbDataAdapter adapter = new OleDbDataAdapter("select * from emanet_kitap where barkodno like '%" + txtkitapbarkodarama.Text + "%'", baglanti);
+            OleDbDataAdapter adapter = new OleDbDataAdapter("select * from emanet_kitaplar where barkodno like '%" + txtkitapbarkodarama.Text + "%'", baglanti);
             adapter.Fill(set, "kitaplar");
             baglanti.Close();
             if (txtkitapbarkodarama.Text == null)
@@ -68,7 +68,7 @@ namespace KÜTÜPHANE
         private void button2_Click(object sender, EventArgs e)
         {
             baglanti.Open();
-            OleDbCommand komut = new OleDbCommand("delete from emanet_kitap where tc=@tc and barkodno=@barkodno", baglanti);
+            OleDbCommand komut = new OleDbCommand("delete from emanet_kitaplar where tc=@tc and barkodno=@barkodno", baglanti);
             komut.Parameters.AddWithValue("@tc", dataGridView1.CurrentRow.Cells["tc"].Value.ToString());
             komut.Parameters.AddWithValue("@barkodno", dataGridView1.CurrentRow.Cells["barkodno"].Value.ToString());
             komut.ExecuteNonQuery();
